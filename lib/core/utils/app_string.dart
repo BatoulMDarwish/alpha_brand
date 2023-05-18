@@ -25,5 +25,7 @@ class AppString{
   static const String Category='Category';
   static const String Size='Size';
   static const String Color='Color';
-
+  static const String Cart='Cart';
+  static const String PhoneNumber='Phone Number';
+  static const String BlackLarg='Black-Large';
 }

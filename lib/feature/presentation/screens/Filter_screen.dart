@@ -14,7 +14,7 @@ class FilterScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: buildItemAppBar(AppString.Filters),
+      appBar: buildItemAppBar(AppString.Filters,[const ButtonReturn()],),
       body: Padding(
         padding: REdgeInsetsDirectional.only(bottom: 97),
         child: Column(

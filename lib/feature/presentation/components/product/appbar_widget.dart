@@ -7,7 +7,8 @@ import '../custom_text_widget.dart';
 import 'button_return.dart';
 
 AppBar buildItemAppBar(
-final String title
+final String title,
+final List<Widget>? action,
 ){
   return  AppBar(
     automaticallyImplyLeading: false,
@@ -31,8 +32,6 @@ final String title
         size: 20,
       ),
     ),
-    actions: const [
-      ButtonReturn(),
-    ],
+    actions: action
   );
 }

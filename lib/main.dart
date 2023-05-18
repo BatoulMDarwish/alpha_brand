@@ -34,15 +34,15 @@ class MyApp extends StatelessWidget {
             theme: ThemeData(
                 fontFamily: 'Poppins'
             ),
-            home: CheckOutScreen(),
-            // initialRoute: "/",
-            // routes: {
-            //   "/": (context) => const SplashScreen(),
-            //   "/welcome": (context) => const WelcomeScreen(),
-            //   "/signIn":(context)=>  SignInScreen(),
-            //   "/productView":(context)=>const ViewProduct(),
-            //   "/filters":(context) => const FilterScreen(),
-            // },
+           // home: CheckOutScreen(),
+            initialRoute: "/",
+            routes: {
+              "/": (context) => const SplashScreen(),
+              "/welcome": (context) => const WelcomeScreen(),
+              "/signIn":(context)=>  SignInScreen(),
+              "/productView":(context)=>const ViewProduct(),
+              "/filters":(context) => const FilterScreen(),
+            },
           ),
         );
       },

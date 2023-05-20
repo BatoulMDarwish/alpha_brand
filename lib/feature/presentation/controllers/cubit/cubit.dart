@@ -25,4 +25,9 @@ class AppCubit extends Cubit<AppState> {
     emit(ChangePasswordVisibiltyState());
 
   }
+   int currentIndex=0;
+  void changeBottomNavigationBar(index){
+    currentIndex=index;
+    emit(ChangeBottomNavegationBarState());
+  }
 }

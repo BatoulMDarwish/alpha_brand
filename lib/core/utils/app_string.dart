@@ -28,4 +28,5 @@ class AppString{
   static const String Cart='Cart';
   static const String PhoneNumber='Phone Number';
   static const String BlackLarg='Black-Large';
+  static const String TotalPrice='Total Price';
 }

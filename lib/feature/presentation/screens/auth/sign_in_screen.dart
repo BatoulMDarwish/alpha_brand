@@ -90,7 +90,7 @@ class SignInScreen extends StatelessWidget {
                               onTap: (){
 
                                if(formKey.currentState!.validate()){
-                                 Navigator.pushNamed(context,"/productView")
+                                 Navigator.pushNamed(context, "/signUp")
                                  ;}
                               },
                             ),

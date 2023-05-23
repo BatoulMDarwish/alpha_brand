@@ -6,8 +6,11 @@ class AppString{
   static const String Continueguest='Continue as a guest' ;
   static const String UserName= 'User Name' ;
   static const String Password= 'Password' ;
+  static const String PhoneNumber= 'Phone Number' ;
+  static const String ConfirmPassword= 'Confirm Password' ;
   static const String Next= 'Next' ;
-  static const String SignUp= 'Sign Up' ;
+  static const String SignUp='Sign Up';
+  static const String Login= 'Login' ;
   static const String CreamybasicHoodie='Creamy basic Hoodie';
   static const String PullBear='Pull&Bear';
   static const String Black='Black';
@@ -26,7 +29,8 @@ class AppString{
   static const String Size='Size';
   static const String Color='Color';
   static const String Cart='Cart';
-  static const String PhoneNumber='Phone Number';
   static const String BlackLarg='Black-Large';
   static const String TotalPrice='Total Price';
+  static const String FirstName='First Name';
+  static const String LastName='Last Name';
 }

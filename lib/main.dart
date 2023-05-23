@@ -1,3 +1,4 @@
+import 'package:alpha_brand_ui/feature/presentation/screens/auth/sign_up.dart';
 import 'package:alpha_brand_ui/feature/presentation/screens/cart/cart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -39,9 +40,10 @@ class MyApp extends StatelessWidget {
               "/": (context) => const SplashScreen(),
               "/welcome": (context) => const WelcomeScreen(),
               "/signIn":(context)=>  SignInScreen(),
+              "/signUp":(context)=>  SignUpScreen(),
               "/productView":(context)=>const ViewProduct(),
               "/filters":(context) => const FilterScreen(),
-              "/cart":(context)=> const CartScreen()
+              "/cart":(context)=> const CartScreen(),
             },
           ),
         );

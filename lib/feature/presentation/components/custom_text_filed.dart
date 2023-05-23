@@ -27,7 +27,7 @@ class CustomTextForm extends StatelessWidget {
             hintText: hinttext,
             hintStyle: TextStyle(
               color: AppColor.gray2,
-                fontSize: 14.sp
+                fontSize: 17.sp
             ),
              contentPadding: EdgeInsets.symmetric(horizontal:12.h),
             suffixIcon: iconData != null

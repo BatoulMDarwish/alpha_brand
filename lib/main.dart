@@ -1,3 +1,4 @@
+import 'package:alpha_brand_ui/feature/presentation/screens/auth/address_screen.dart';
 import 'package:alpha_brand_ui/feature/presentation/screens/auth/sign_up.dart';
 import 'package:alpha_brand_ui/feature/presentation/screens/cart/cart.dart';
 import 'package:flutter/material.dart';
@@ -44,6 +45,7 @@ class MyApp extends StatelessWidget {
               "/productView":(context)=>const ViewProduct(),
               "/filters":(context) => const FilterScreen(),
               "/cart":(context)=> const CartScreen(),
+              "/address":(context)=>  AddressScreen(),
             },
           ),
         );

@@ -108,7 +108,9 @@ class SignInScreen extends StatelessWidget {
                               size: 17),
                           8.horizontalSpace,
                           InkWell(
-                             onTap: (){},
+                             onTap: (){
+                               Navigator.pushNamed(context, "/signUp");
+                             },
                             child: const CustomText(
                                 text: AppString.SignUp,
                                 color: AppColor.pink,
